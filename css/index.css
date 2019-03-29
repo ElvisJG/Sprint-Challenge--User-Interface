@@ -178,9 +178,9 @@ p {
 }
 
 .headerimg {
-    display: flex;
-    width: 100vw;
-    margin: 35px 0px 20px 0px;
+  display: flex;
+  width: 100vw;
+  margin: 35px 0px 20px 0px;
 }
 
 .top-content {
@@ -189,6 +189,17 @@ p {
   justify-content: space-evenly;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
+}
+
+.top-content-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+.top-content-about p {
+  margin-bottom: 20px;
 }
 
 .top-content .text-container {
